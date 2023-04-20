@@ -2,7 +2,7 @@ package ejercicio4;
 
 import java.lang.System.Logger.Level;
 
-public abstract class Electrodomestico {
+public class Electrodomestico {
 	double precioBase = 100;
 	Color color = Color.blanco;
 	Consumo consumoEnergetico = Consumo.F;
@@ -94,14 +94,11 @@ public abstract class Electrodomestico {
 
 		if (peso >= 0 && peso <= 19) {
 			precioBase += 10;
-		}
-		if (peso >= 20 && peso <= 49) {
+		} else if (peso >= 20 && peso <= 49) {
 			precioBase += 50;
-		}
-		if (peso >= 50 && peso <= 79) {
+		} else if (peso >= 50 && peso <= 79) {
 			precioBase += 80;
-		}
-		if (peso >80) {
+		} else if (peso > 80) {
 			precioBase += 100;
 		}
 	}
