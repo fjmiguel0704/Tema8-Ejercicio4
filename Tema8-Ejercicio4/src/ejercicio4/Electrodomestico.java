@@ -1,7 +1,5 @@
 package ejercicio4;
 
-import java.lang.System.Logger.Level;
-
 public class Electrodomestico {
 	double precioBase = 100;
 	Color color = Color.blanco;

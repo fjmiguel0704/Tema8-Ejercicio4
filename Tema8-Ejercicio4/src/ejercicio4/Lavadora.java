@@ -25,7 +25,7 @@ public class Lavadora extends Electrodomestico {
 	 * @param peso
 	 * @param carga
 	 */
-	public Lavadora(double precio, double peso, double carga) {
+	public Lavadora(Color color, Consumo consumo, double precio, double peso, double carga) {
 		super(precio, peso);
 		this.carga = carga;
 	}
